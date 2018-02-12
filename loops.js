@@ -20,7 +20,7 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
-    delete array.element(1)
+    delete array.element(-1)
     array.length > 0
   } while (maybeTrue());
   return array;
