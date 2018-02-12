@@ -20,8 +20,9 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
-    array.pop(1)
-    array.length > 0
+    function maybeTrue() {
+  return Math.random() >= 0.5
+}
   } while (maybeTrue());
   return array;
 }
