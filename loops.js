@@ -21,7 +21,9 @@ function whileLoop(n) {
 function doWhileLoop(array) {
   do {
     function maybeTrue() {
+      array.pop
     array.length > 0
+
 }
   } while (maybeTrue());
   return array;
