@@ -35,4 +35,5 @@ function doWhileLoop(array) {
       array.length > 0;
     } while (maybeTrue());
   }
+  return array;
 }
