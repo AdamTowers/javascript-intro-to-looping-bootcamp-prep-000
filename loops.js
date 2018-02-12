@@ -17,11 +17,3 @@ function whileLoop(n) {
   }
   return 'done';
 }
-
-function doWhileLoop(array) {
-  do {
-    remove array.element(1)
-    array.length > 0
-  } while (maybeTrue());
-  return array;
-}
